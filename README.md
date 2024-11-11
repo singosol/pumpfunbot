@@ -1,6 +1,6 @@
 # 检测pumpfun新铸造代币\监控\自动买入\自动卖出，使用rust编写
 
-# 借鉴了Allen-Taylor的部分代码
+# 借鉴了[Allen-Taylor]([https://github.com/singosol/kuzco-docker/releases](https://github.com/Allen-Taylor/pump_fun_py))的部分代码
 # 以下是初始参数设定，仅供参考，需要你自己研究更好的规则和参数（初始买入和卖出逻辑经过我的测试会出现持续亏损，慎用!）
 ## 1.检测Pump.fun Token Mint Authority最铸币信息，获取铸币地址
 ## 2.进行为期10分钟的价格稳定检测，如果检测期内价格下跌超过40%就淘汰，如果超过检测期执行下一步
